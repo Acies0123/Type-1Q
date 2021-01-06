@@ -107,7 +107,7 @@ body {
 }
 
 .quiz_box {
-  width: 550px;
+  max-width: 550px;
   background: #fff;
   border-radius: 5px;
   transform: translate(-50%, -50%) scale(0.9);
@@ -381,9 +381,9 @@ footer button.show {
   background: #007bff;
 }
 
-@media screen (max-width: 700) {
+@media screen and (max-width: 700) {
   .info_box .info_list {
     padding: 10px 30px;
-    /* max-width: 90vw; */
+    width: 90vw;
   }
 }
